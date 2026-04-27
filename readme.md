@@ -19,8 +19,8 @@
     
   ]
 }
- [server](https://json-server-y16h.onrender.com
+ [server](https://json-server-y16h.onrender.com/users
  )
 
 # JSON Server
- link https://json-server-y16h.onrender.com
+ link https://json-server-y16h.onrender.com/users
