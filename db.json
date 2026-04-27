@@ -1,0 +1,196 @@
+{
+  "users": [
+    { "id": 1, "name": "Zihad", "email": "zihad@mail.com", "role": "admin" },
+    { "id": 2, "name": "Rahim", "email": "rahim@mail.com", "role": "customer" },
+    { "id": 3, "name": "Karim", "email": "karim@mail.com", "role": "customer" }
+  ],
+
+  "categories": [
+    { "id": 1, "name": "Electronics" },
+    { "id": 2, "name": "Clothing" },
+    { "id": 3, "name": "Books" }
+  ],
+
+  "products": [
+    
+    { "id": 1, "name": "Smartphone A", "price": 12000, "categoryId": 1, "stock": 15 },
+    { "id": 2, "name": "Smartphone B", "price": 18000, "categoryId": 1, "stock": 10 },
+    { "id": 3, "name": "Laptop A", "price": 55000, "categoryId": 1, "stock": 5 },
+    { "id": 4, "name": "Laptop B", "price": 65000, "categoryId": 1, "stock": 3 },
+    { "id": 5, "name": "Headphones", "price": 2000, "categoryId": 1, "stock": 25 },
+    { "id": 6, "name": "Bluetooth Speaker", "price": 3000, "categoryId": 1, "stock": 20 },
+    { "id": 7, "name": "Smart Watch", "price": 5000, "categoryId": 1, "stock": 12 },
+    { "id": 8, "name": "Power Bank", "price": 1500, "categoryId": 1, "stock": 30 },
+    { "id": 9, "name": "Router", "price": 2500, "categoryId": 1, "stock": 18 },
+    { "id": 10, "name": "Keyboard", "price": 1200, "categoryId": 1, "stock": 22 },
+
+   
+    { "id": 11, "name": "T-Shirt Black", "price": 500, "categoryId": 2, "stock": 50 },
+    { "id": 12, "name": "T-Shirt White", "price": 450, "categoryId": 2, "stock": 40 },
+    { "id": 13, "name": "Jeans Blue", "price": 1200, "categoryId": 2, "stock": 30 },
+    { "id": 14, "name": "Jeans Black", "price": 1300, "categoryId": 2, "stock": 25 },
+    { "id": 15, "name": "Shirt Formal", "price": 900, "categoryId": 2, "stock": 20 },
+    { "id": 16, "name": "Shirt Casual", "price": 800, "categoryId": 2, "stock": 28 },
+    { "id": 17, "name": "Jacket", "price": 2500, "categoryId": 2, "stock": 15 },
+    { "id": 18, "name": "Sweater", "price": 1500, "categoryId": 2, "stock": 18 },
+    { "id": 19, "name": "Shorts", "price": 600, "categoryId": 2, "stock": 35 },
+    { "id": 20, "name": "Cap", "price": 300, "categoryId": 2, "stock": 40 },
+
+    
+    { "id": 21, "name": "JavaScript Basics", "price": 800, "categoryId": 3, "stock": 20 },
+    { "id": 22, "name": "Advanced JavaScript", "price": 1200, "categoryId": 3, "stock": 15 },
+    { "id": 23, "name": "React Guide", "price": 1000, "categoryId": 3, "stock": 18 },
+    { "id": 24, "name": "Next.js Handbook", "price": 1100, "categoryId": 3, "stock": 12 },
+    { "id": 25, "name": "Node.js Guide", "price": 950, "categoryId": 3, "stock": 14 },
+    { "id": 26, "name": "HTML & CSS", "price": 700, "categoryId": 3, "stock": 25 },
+    { "id": 27, "name": "Python Basics", "price": 850, "categoryId": 3, "stock": 20 },
+    { "id": 28, "name": "Data Structures", "price": 1300, "categoryId": 3, "stock": 10 },
+    { "id": 29, "name": "Algorithms", "price": 1400, "categoryId": 3, "stock": 8 },
+    { "id": 30, "name": "Database Design", "price": 900, "categoryId": 3, "stock": 16 }
+  ],
+	"models": [
+    {
+      "id": 1,
+      "title": "ChatGPT",
+      "description": "The world's most popular AI assistant by OpenAI.\nVersatile for writing, coding, reasoning, and creative tasks.",
+      "price": 100,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png",
+      "status": "popular"
+    },
+    {
+      "id": 2,
+      "title": "Grok+++",
+      "description": "Built by xAI with real-time knowledge from X.\nHelpful, witty, and maximally truth-seeking AI.",
+      "price": 50,
+      "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/grok-icon.png",
+      "status": "favourite"
+    },
+    {
+      "id": 3,
+      "title": "DeepSeek",
+      "description": "Powerful open-source focused AI from China.\nExcellent at coding, math, and cost-effective reasoning.",
+      "price": 0,
+      "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/deepseek-logo-icon.png",
+      "status": "mostwanted"
+    },
+    {
+      "id": 4,
+      "title": "Gemini",
+      "description": "Google's advanced multimodal AI.\nDeep integration with Google ecosystem and strong reasoning.",
+      "price": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/1200px-Google_Gemini_logo.svg.png",
+      "status": "popular"
+    },
+    {
+      "id": 5,
+      "title": "Claude",
+      "description": "Anthropic's thoughtful and safe AI model.\nBest for long-context writing, analysis, and coding.",
+      "price": 20,
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/067/941/712/small_2x/claude-ai-logo-rounded-hd-free-png.png",
+      "status": "favourite"
+    },
+    {
+      "id": 6,
+      "title": "Kimi",
+      "description": "Moonshot AI's fast and intelligent Chinese AI.\nExcellent long-context handling and creative capabilities.",
+      "price": 0,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/87/Kimi-logo-2025.png",
+      "status": "mostwanted"
+    },
+    {
+      "id": 7,
+      "title": "Perplexity",
+      "description": "AI-powered search engine with real-time web access.\nDelivers accurate answers with sources.",
+      "price": 20,
+      "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/perplexity-ai-icon.png",
+      "status": "popular"
+    },
+    {
+      "id": 8,
+      "title": "Mistral",
+      "description": "European AI company known for efficient models.\nStrong performance in coding and multilingual tasks.",
+      "price": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mistral_AI_logo_%282025%E2%80%93%29.svg/1280px-Mistral_AI_logo_%282025%E2%80%93%29.svg.png",
+      "status": "favourite"
+    },
+    {
+      "id": 9,
+      "title": "Meta AI",
+      "description": "Meta's powerful Llama-based AI assistant.\nIntegrated across WhatsApp, Instagram, and Facebook.",
+      "price": 0,
+      "image": "https://brandlogos.net/wp-content/uploads/2025/08/meta_ai-logo_brandlogos.net_xjwry.png",
+      "status": "popular"
+    },
+    {
+      "id": 10,
+      "title": "Qwen",
+      "description": "Alibaba's high-performing Chinese AI series.\nOutstanding in coding, math, and multilingual understanding.",
+      "price": 0,
+      "image": "https://img.alicdn.com/imgextra/i3/O1CN01zaxxvj1p4f0VrY17j_!!6000000005307-54-tps-180-180.apng",
+      "status": "mostwanted"
+    },
+    {
+      "id": 11,
+      "title": "Copilot",
+      "description": "Microsoft's AI assistant powered by GPT models.\nExcellent integration with Office 365 and Windows.",
+      "price": 100,
+      "image": "https://learningtech.uncg.edu/wp-content/uploads/2025/10/app-page-logo_copilot.png",
+      "status": "popular"
+    }
+  ],
+
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "date": "2026-04-20",
+      "status": "delivered",
+      "total": 15500
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "date": "2026-04-22",
+      "status": "pending",
+      "total": 500
+    }
+  ],
+
+  "orderItems": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "productId": 1,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "orderId": 1,
+      "productId": 3,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "orderId": 2,
+      "productId": 3,
+      "quantity": 1
+    }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Excellent product!"
+    },
+    {
+      "id": 2,
+      "productId": 3,
+      "userId": 3,
+      "rating": 4,
+      "comment": "Good quality"
+    }
+  ]
+}
